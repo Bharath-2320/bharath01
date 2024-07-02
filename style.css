@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.header{
+    background-color:black;
+    color: white;
+    padding: 20px;
+}
+li,h1,ul{
+    display:inline;
+}
+ul{
+    margin-left: 450px;
+}
+li{
+    margin:5px;
+    color: grey;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+input{
+    width:60%;
+    padding: 15px;
+    margin-top:30px;
+}
+hr {  
+    height: 4px;  
+    background-color:aqua;  
+    border: none;  
+}  
+.bottle{
+    border-color:white;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+    margin: 20px;
+}
+.products{
+    text-align: center;
+    padding: 30px;
+}
+.bottle:hover{
+    background-color:grey;
+    color: white;
+   
+}
+.about{
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    margin: 10px;
+}
+.Contact{
+    background-color: black;
+    color: white;
+    padding: 10 px;
+
+}
+.one{
+    margin-top: 30px;
+}
+.two{
+    padding-top:20px;
+}
+.bg-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    filter: brightness(100%);
+}
